@@ -15,7 +15,7 @@ This is a Python module having a class for comuting some basic statistics on a c
 The following methods are implemented:
 
 1. ### `add(int = n)`
-<br><br>The `add` method is used basically to add or insert integers into a DataCapture object. The `add` method requires only one paramter of a positive integer. An example would be **→** `data_c.add(7)`<br><br>
+<br>The `add` method is used basically to add or insert integers into a DataCapture object. The `add` method requires only one paramter of a positive integer. An example would be **→** `data_c.add(7)`<br><br>
 
 2. ### `buid_stats()`
 <br><br>The `build_stats` method can be used after adding integers into the DataCapture object. The `build_stats` method does not require any parameters and it should be used prior to using `less`, `greater`, or `between` methods. `build_stats` can be used as **→** `data_c.build_stats()`<br><br>
