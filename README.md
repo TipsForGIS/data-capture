@@ -1,12 +1,12 @@
 # data-capture
 
-This is a Python module having a class for comuting some basic statistics on a collection of small positive integers.
+This is a Python module having a class for comuting some basic statistics on a collection of small positive integers. You need Python 3 and you do not need any  packages installed for the code to run.
 
 
 - The module file is called `DataCapture.py` containing a class also called `DataCapture` and a decorator called `is_positive_int`
 - The decorator `is_positive_int` is linked to 4 methods in `DataCapture` class to verify if passed parameter(s) is/are positive interger(s).
-- The file `main.py` illustrates how to use the DataCapture class.
-- First we import DataCapture class from DataCapture module as:
+- The file `main.py` is the entry file used to illustrate the usage of the DataCapture class.
+- First we import `DataCapture` class from `DataCapture` module in `main.py` as:
 ### `from DataCapture import DataCapture`
 - Then you can create a DataCapture objest as:
 ### `data_c = DataCapture()`
